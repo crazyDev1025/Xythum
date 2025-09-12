@@ -1,0 +1,25 @@
+.seq-pera {
+  font-size: 18px;
+  padding: 0 15%;
+  margin-bottom: 30px;
+}
+.digram {
+  position: relative;
+}
+#roadmap {
+  position: absolute;
+  z-index: -5;
+  bottom: 130px;
+}
+@media only screen and (max-width: 767px) {
+  .seq-pera {
+    font-size: 18px;
+    padding: 0 1%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .seq-pera {
+    font-size: 11px;
+    padding: 0 1%;
+  }
+}

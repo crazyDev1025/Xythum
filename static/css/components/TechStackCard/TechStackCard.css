@@ -1,0 +1,48 @@
+.techStackCard {
+  background-color: #1d1d1d;
+  border-radius: 34px;
+  border: 1px solid #646464;
+  justify-content: flex-end;
+  align-items: baseline;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  height: 450px;
+  /* Apply fast wave animation */
+}
+
+.index {
+  color: green;
+  position: absolute;
+  top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  left: 20px;
+}
+
+.techStackCardParagraph {
+  position: absolute;
+  bottom: 40px;
+  left: 32px;
+  right: 40px;
+  /* padding: 0px 40px 40px; */
+  text-align: left;
+  z-index: 99;
+}
+.techStackCard img {
+  width: 80%;
+  position: relative;
+  margin: auto;
+}
+@media only screen and (max-width: 600px) {
+  .techStackCardParagraph {
+    /* position: revert; */
+    /* padding: 0px 19px 23px; */
+    text-align: left;
+    /* margin-top: -63px; */
+  }
+  .techStackCard {
+    margin: 10px;
+    height: 350px;
+  }
+}

@@ -1,0 +1,29 @@
+.description {
+  text-align: center;
+  font-family: Mazius Display;
+  font-size: 30px;
+}
+.questionDescription {
+  font-size: 40px;
+}
+
+.answerDescription {
+  width: 50%;
+  margin: auto;
+}
+.descriptionImage img {
+  width: 60vw;
+
+  margin: auto;
+  margin-top: 50px;
+}
+.digram video {
+  border: 1px solid #e0dfdf;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 850px) {
+  .digram video {
+    width: 100%;
+  }
+}

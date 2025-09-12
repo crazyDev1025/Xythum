@@ -1,0 +1,265 @@
+.challanege {
+  text-align: center;
+}
+
+.challangeHeading {
+  width: 50%;
+  margin: auto;
+}
+
+.OurSolutions {
+  box-sizing: border-box;
+  width: 414px;
+  height: 70px;
+  left: calc(50% - 414px / 2);
+  top: 3098px;
+  background: linear-gradient(
+    181.89deg,
+    rgba(0, 0, 0, 0.46) 24.07%,
+    rgba(233, 233, 233, 0.46) 121.07%
+  );
+  box-shadow: 0px 74px 55px rgba(0, 0, 0, 0.57);
+  border-radius: 23px;
+}
+
+.OurSolutions {
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  margin-top: 59px;
+  border-top: 1px solid white;
+  height: 100px;
+}
+
+.challangeCard {
+  box-sizing: border-box;
+  border: 1px solid #646464;
+  width: 70%;
+  height: 447px;
+  border-radius: 34px;
+  margin: auto;
+  display: flex;
+  position: relative;
+  top: -26px;
+  background-color: #1d1d1d;
+  justify-content: space-between;
+  padding: 36px;
+  overflow: hidden;
+}
+
+.swiper-slide h1 {
+  font-size: 21px;
+}
+
+.solutionQuestion h1 {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #3e3e3e;
+  box-shadow: inset 0px 0px 4px gray;
+}
+
+.solutionQuestion .swiper-slide-active h1 {
+  background: transparent;
+  box-shadow: none;
+}
+
+.swiper-wrapper {
+  margin-top: 5px;
+}
+
+.illustrativeImage {
+  width: 620px;
+  height: 384px;
+  display: flex;
+}
+
+.power {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -27px;
+}
+
+.power img {
+  width: 530px;
+  position: relative;
+  top: -26px;
+  margin: auto;
+}
+
+.solutionList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid yellow;
+  display: flex;
+}
+
+.solutionCard {
+  padding: 2px;
+  height: 115px;
+
+  /* padding-bottom: 35px; */
+}
+
+.solutionQuestion .solutionCard {
+  opacity: 0.4;
+  transition: all 250ms linear;
+}
+
+.solutionQuestion .swiper-slide-active .solutionCard {
+  opacity: 1;
+}
+
+.img-cstm {
+  height: 100px;
+  width: 400px;
+  background: white;
+}
+
+.solutionQuestion {
+  /* overflow-y: scroll; */
+  height: 372px;
+  gap: 20px;
+  display: flex;
+  /* flex-direction: column; */
+  margin-left: 20px;
+  position: relative;
+  max-width: 730px;
+}
+
+.solutionQuestion .swiper-thumb-num {
+  margin-right: -12px;
+  width: 164px;
+  height: 310px;
+  margin-top: 50px;
+}
+
+.solutionsList {
+  display: flex;
+  height: 30%;
+}
+
+.solutionsList img {
+  display: flex;
+  position: absolute;
+  right: 14px;
+  top: 44%;
+  width: 66px;
+}
+
+@media only screen and (max-width: 1280px) {
+  .challangeCard {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 1180px) {
+  .challangeCard {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 1001px) {
+  .illustrativeImage {
+    width: 332px;
+    height: 384px;
+  }
+
+  .challangeCard {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .challangeCard {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .illustrativeImage {
+    width: 100%;
+    height: auto;
+  }
+
+  .illustrativeImage video {
+    transform: rotate(90deg);
+  }
+}
+
+@media (max-width: 850px) {
+  .solutionQuestion {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .solutionQuestion .swiper-thumb-num {
+    margin-right: 0px;
+    width: 100%;
+    height: fit-content;
+    margin-top: 20px;
+  }
+
+  .solutionQuestion h1 {
+    margin: auto;
+  }
+
+  .solutionQuestion {
+    height: fit-content;
+    flex-wrap: wrap;
+  }
+
+  .solutionsList img {
+    position: absolute;
+    top: auto;
+    bottom: 22px;
+    left: calc(50% - 33px);
+  }
+  .solutionCard {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .solutionsList img {
+    right: auto;
+    top: auto;
+    bottom: 22px;
+  }
+
+  .OurSolutions {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .OurSolutions {
+    width: 275px;
+    height: 80px;
+  }
+
+  .solutionQuestion {
+    margin-left: 0;
+  }
+}
+.solution-pad-bottom {
+  /* padding-bottom: 20px !important;
+  margin-bottom: 30px !important; */
+  margin-top: 5px !important;
+
+  /* padding-top: 20px !important; */
+  /* margin-top: 30px !important; */
+}
+
+.solution-pad-top {
+  /* padding-top: 20px !important; */
+  margin-top: 5px !important;
+
+  /* padding-top: 20px !important; */
+  /* margin-top: 30px !important; */
+}

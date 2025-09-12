@@ -1,0 +1,125 @@
+.footer {
+  font-size: 19px;
+}
+.footerUpperSection {
+  display: flex;
+  margin: auto;
+  padding: 80px;
+  width: 90%;
+}
+.footer1stSection {
+  flex-direction: column;
+  width: 30%;
+}
+.footer2ndSection {
+  display: flex;
+  flex: 1 1;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer .communityIcons {
+  display: flex;
+  gap: 10px;
+}
+.footer .iconLink {
+  color: #fff;
+  font-size: 18px;
+  position: relative;
+  transition: color 0.3s;
+}
+.footer .iconLink:nth-child(3):before {
+  border-radius: 0;
+}
+.footer .iconLink:nth-child(2):hover:before,
+.footer .iconLink:nth-child(3):hover:before,
+.footer .iconLink:nth-child(4):hover:before {
+  background: #fff;
+}
+.footer .iconLink:nth-child(2):hover {
+  color: #08c;
+}
+.footer .iconLink:nth-child(3):hover {
+  color: #0077b5;
+}
+.footer .iconLink:nth-child(4):hover {
+  color: #5562ea;
+}
+.boldHeading {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px 0;
+}
+.iconLink {
+  color: #fff;
+}
+.sectionLink {
+  color: gray;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.sectionLink:hover {
+  color: #fff;
+}
+.botttomFooter,
+.footer1stSection {
+  align-items: center;
+  display: flex;
+}
+.botttomFooter {
+  background: linear-gradient(180deg, #131313 -28.18%, #000 67.42%);
+  font-size: 16px;
+  height: 101px;
+  justify-content: center;
+  position: relative;
+}
+.footer2ndSection a {
+  color: gray;
+  display: block;
+  text-decoration: none;
+}
+.iconImage {
+  width: 25px;
+}
+.footer1stSection {
+  align-items: flex-start;
+  justify-content: center;
+  padding: 10px;
+}
+@media screen and (max-width: 1080px) {
+  .footerUpperSection {
+    border-top: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 140px 40px 40px;
+    width: 100%;
+  }
+  .footer2ndSection {
+    gap: 20px;
+  }
+  .botttomFooter {
+    padding: 25px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .footerUpperSection {
+    padding: 40px 0;
+  }
+  .footer2ndSection {
+    justify-content: space-around;
+  }
+  .footer2ndSection a {
+    font-size: 16px;
+    margin: 8px 0;
+  }
+  .footer-box {
+    width: 45%;
+  }
+  .footer1stSection .logo img {
+    width: 60px !important;
+  }
+  .footer1stSection {
+    padding: 0 10px;
+  }
+}
+/*# sourceMappingURL=518.ab02c24e.chunk.css.map*/

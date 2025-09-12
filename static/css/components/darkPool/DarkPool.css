@@ -1,0 +1,188 @@
+.darkPoolFunctionality {
+  text-align: center;
+}
+
+.bigCard {
+  box-sizing: border-box;
+  width: 511px;
+  background-color: #1d1d1d;
+  border-radius: 34px;
+  flex-direction: column;
+  margin: 35px 0;
+  border: 1px solid #646464;
+  position: relative;
+  overflow: hidden;
+  /* height: 498px; */
+  /* background: linear-gradient(
+    140.5deg,
+    rgba(0, 0, 0, 0.46) 63.4%,
+    rgba(156, 156, 156, 0.46) 105.86%
+  ); */
+}
+.bigCard img {
+  width: 453px;
+  margin: auto;
+  position: relative;
+  top: -108px;
+  left: -10px;
+}
+.bigCardHeading {
+}
+.smallCardOne {
+  padding: 30px;
+  position: relative;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 35px;
+}
+.smallBackgroundimage {
+  position: absolute;
+  left: 0;
+  width: 98%;
+  top: 24px;
+}
+.bigCardContainer {
+  position: absolute;
+  bottom: 0px;
+  background-color: #1d1d1d;
+  padding: 55px 40px;
+}
+
+.dashedBorder {
+  /* border: 1px dashed #fff; */
+  border-radius: 34px;
+  margin: 35px 0;
+  border-right: none;
+}
+.dashedBorderImage {
+  position: absolute;
+  left: 0px;
+  top: -30px;
+  width: fit-content;
+  z-index: -12121;
+}
+.smallCardOneImg {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.smallCardOneImg {
+}
+.smallCardTwo {
+  position: relative;
+}
+.smallCardTwoImg {
+  position: absolute;
+
+  top: 0;
+  left: 11px;
+  margin-top: 20px;
+  width: 648px;
+  z-index: -1;
+}
+.smallCardTwoContainer {
+  z-index: 3223;
+  position: absolute;
+  width: 70%;
+  left: 33px;
+  bottom: 30px;
+}
+.dashedBox video {
+  object-fit: cover;
+}
+.dashedBox {
+  width: 542px;
+  height: 238px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  border-radius: 34px;
+  background-color: #1d1d1d;
+  position: relative;
+  border: 1px solid #646464;
+  margin: 5px 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  overflow: hidden;
+}
+.transfer {
+  display: flex;
+  align-items: flex-end;
+  /* padding: 9px 96px 24px 42px; */
+}
+
+.darkPoolFunctionality .headingAndPara,
+.darkPoolFunctionality .headingGap {
+  margin-bottom: 0 !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .dashedBox {
+    width: 488px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .cards {
+    flex-direction: column;
+    gap: 2px;
+  }
+  .bigCard {
+    margin: auto;
+  }
+  .dashedBox {
+    margin: auto;
+  }
+  .dashedBorder {
+    margin: 15px 0;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .dashedBox {
+    width: 100%;
+    height: auto;
+  }
+  .bigCard {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .bigCardContainer {
+    padding: 37px 22px;
+  }
+  .smallCardTwoContainer {
+    width: 76%;
+    left: 12px;
+    bottom: 21px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .transfer {
+    flex-direction: column;
+  }
+  .smallCardTwoContainer {
+    position: revert;
+    width: 100%;
+    margin-top: -62px;
+    padding: 0 22px 24px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .bigCardContainer {
+    padding: 22px 22px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .bigCard {
+    height: 411px;
+  }
+  .bigCard video {
+    margin-top: -50px;
+  }
+}

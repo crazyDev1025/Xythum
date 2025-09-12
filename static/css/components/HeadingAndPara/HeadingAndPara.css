@@ -1,0 +1,25 @@
+.headingAndPara {
+  width: 61%;
+  text-align: center;
+  margin: 35px auto 30px;
+}
+.glowBackgroundImage {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  z-index: -323223232323;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 1024px) {
+  .headingAndPara {
+    width: 85%;
+    margin: 13px auto 53px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .headingAndPara {
+    width: 100%;
+    margin: 13px auto 26px;
+  }
+}

@@ -1,0 +1,48 @@
+.faq {
+  margin: auto;
+  margin-top: 60px;
+  width: 702px;
+  overflow: hidden;
+}
+.faqHeading {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+  .glowBackgroundImage {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .faq {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+.answerFAQ {
+  box-sizing: border-box;
+  padding: 30px 22px;
+  transition: 0.2s ease;
+}
+.questionFAQ {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.questionFAQ span {
+  font-size: 32px;
+}
+.FAQ {
+  transition: 0.2s ease;
+  margin: auto;
+}
+
+@media only screen and (max-width: 450px) {
+  .questionFAQ .heading {
+    font-size: 20px !important;
+  }
+  .answerFAQ {
+    padding: 20px 22px;
+  }
+}

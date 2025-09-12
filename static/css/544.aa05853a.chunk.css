@@ -1,0 +1,89 @@
+.techStack {
+  text-align: center;
+}
+.techItems {
+  grid-gap: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+  width: 65%;
+}
+.tech_stack .headingGap {
+  margin-bottom: 45px;
+}
+@media only screen and (max-width: 1250px) {
+  .techItems {
+    width: 75%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .techItems {
+    width: 98%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .techItems {
+    display: block;
+    width: 75%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .techItems {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 650px) {
+  .techItems {
+    width: 100%;
+  }
+  .headingGap {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .heading {
+    font-size: 21px !important;
+  }
+}
+.techStackCard {
+  align-items: baseline;
+  background-color: #1d1d1d;
+  border: 1px solid #646464;
+  border-radius: 34px;
+  height: 450px;
+  justify-content: flex-end;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+.index {
+  color: green;
+  font-size: 30px;
+  font-weight: 700;
+  left: 20px;
+  position: absolute;
+  top: 20px;
+}
+.techStackCardParagraph {
+  bottom: 40px;
+  left: 32px;
+  position: absolute;
+  right: 40px;
+  text-align: left;
+  z-index: 99;
+}
+.techStackCard img {
+  margin: auto;
+  position: relative;
+  width: 80%;
+}
+@media only screen and (max-width: 600px) {
+  .techStackCardParagraph {
+    text-align: left;
+  }
+  .techStackCard {
+    height: 350px;
+    margin: 10px;
+  }
+}
+/*# sourceMappingURL=544.aa05853a.chunk.css.map*/

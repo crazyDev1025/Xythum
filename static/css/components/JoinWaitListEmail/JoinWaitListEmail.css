@@ -1,0 +1,58 @@
+.popupEmail {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: #000000ad;
+}
+.popup_inner {
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 25%;
+  bottom: 25%;
+  margin: auto;
+  background: #1d1d1d;
+  border: 1px solid #646464;
+  border-radius: 8px;
+  padding: 55px 40px;
+  height: 250px;
+}
+.popupEmail input {
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 12px;
+  padding: 16px 11px;
+  width: 100%;
+  background: black;
+  font-size: 17px;
+  color: rgb(234, 231, 231);
+}
+.closeEmail {
+  position: absolute;
+  right: -14px;
+  top: -17px;
+  font-size: 18px;
+  background: #1d1d1d;
+  border: 1px solid gray;
+  border-radius: 50%;
+  padding: 3px 7px;
+  cursor: pointer;
+}
+.popBtn {
+  width: 150px !important;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .popup_inner {
+    left: 5%;
+    right: 5%;
+    padding: 53px 19px;
+  }
+}

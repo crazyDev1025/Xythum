@@ -1,0 +1,166 @@
+.darkPoolFunctionality {
+  text-align: center;
+}
+.bigCard {
+  background-color: #1d1d1d;
+  border: 1px solid #646464;
+  border-radius: 34px;
+  box-sizing: border-box;
+  flex-direction: column;
+  margin: 35px 0;
+  overflow: hidden;
+  position: relative;
+  width: 511px;
+}
+.bigCard img {
+  left: -10px;
+  margin: auto;
+  position: relative;
+  top: -108px;
+  width: 453px;
+}
+.smallCardOne {
+  padding: 30px;
+  position: relative;
+}
+.cards {
+  align-items: stretch;
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+}
+.smallBackgroundimage {
+  left: 0;
+  position: absolute;
+  top: 24px;
+  width: 98%;
+}
+.bigCardContainer {
+  background-color: #1d1d1d;
+  bottom: 0;
+  padding: 55px 40px;
+  position: absolute;
+}
+.dashedBorder {
+  border-radius: 34px;
+  border-right: none;
+  margin: 35px 0;
+}
+.dashedBorderImage {
+  left: 0;
+  position: absolute;
+  top: -30px;
+  width: -webkit-fit-content;
+  width: fit-content;
+  z-index: -12121;
+}
+.smallCardOneImg {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+.smallCardTwo {
+  position: relative;
+}
+.smallCardTwoImg {
+  left: 11px;
+  margin-top: 20px;
+  position: absolute;
+  top: 0;
+  width: 648px;
+  z-index: -1;
+}
+.smallCardTwoContainer {
+  bottom: 30px;
+  left: 33px;
+  position: absolute;
+  width: 70%;
+  z-index: 3223;
+}
+.dashedBox video {
+  object-fit: cover;
+}
+.dashedBox {
+  align-items: center;
+  background-color: #1d1d1d;
+  border: 1px solid #646464;
+  border-radius: 34px;
+  box-shadow: 0 3px 8px #0000003d;
+  display: flex;
+  height: 238px;
+  justify-items: center;
+  margin: 5px;
+  overflow: hidden;
+  position: relative;
+  width: 542px;
+}
+.transfer {
+  align-items: flex-end;
+  display: flex;
+}
+.darkPoolFunctionality .headingAndPara,
+.darkPoolFunctionality .headingGap {
+  margin-bottom: 0 !important;
+}
+@media only screen and (max-width: 1024px) {
+  .dashedBox {
+    width: 488px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .cards {
+    flex-direction: column;
+    gap: 2px;
+  }
+  .bigCard,
+  .dashedBox {
+    margin: auto;
+  }
+  .dashedBorder {
+    margin: 15px 0;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .dashedBox {
+    height: auto;
+    width: 100%;
+  }
+  .bigCard {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .bigCardContainer {
+    padding: 37px 22px;
+  }
+  .smallCardTwoContainer {
+    bottom: 21px;
+    left: 12px;
+    width: 76%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .transfer {
+    flex-direction: column;
+  }
+  .smallCardTwoContainer {
+    margin-top: -62px;
+    padding: 0 22px 24px;
+    position: revert;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .bigCardContainer {
+    padding: 22px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .bigCard {
+    height: 411px;
+  }
+  .bigCard video {
+    margin-top: -50px;
+  }
+}
+/*# sourceMappingURL=442.792264b1.chunk.css.map*/
