@@ -82,12 +82,12 @@ const footerSections = [
     links: [
       {
         icon: <FaXTwitter />,
-        url: "https://x.com/Xythum?s=09",
+        url: "https://x.com/xythum_ai",
         newpage: "_blank",
       },
       {
         icon: <FaTelegram />,
-        url: "https://t.me/Xythum_labs",
+        url: "https://t.me/xythum_ai",
         newpage: "_blank",
       }
     ],

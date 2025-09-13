@@ -58,12 +58,12 @@
             links: [
               {
                 icon: (0, o.jsx)(t.TCj, {}),
-                url: "https://x.com/Xythum?s=09",
+                url: "https://x.com/xythum_ai",
                 newpage: "_blank",
               },
               {
                 icon: (0, o.jsx)(r.hFS, {}),
-                url: "https://t.me/Xythum_labs",
+                url: "https://t.me/xythum_ai",
                 newpage: "_blank",
               }
             ],
