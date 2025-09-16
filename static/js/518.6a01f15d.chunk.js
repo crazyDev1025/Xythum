@@ -46,11 +46,11 @@
             links: [
               {
                 name: "Dextools",
-                linkUrl: "https://www.dextools.io/app/en/ether/pair-explorer/0xcomingsoon",
+                linkUrl: "https://www.dextools.io/app/en/ether/pair-explorer/0x2c4ceb697f4d8385621438c0e785635942e8404f",
                 newPage: "_blank",
               },
-              { name: "Dexscreener", linkUrl: "https://dexscreener.com/ethereum/0xcomingsoon", newPage: "_blank" },
-              { name: "Uniswap", linkUrl: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0xcomingsoon", newPage: "_blank" },
+              { name: "Dexscreener", linkUrl: "https://dexscreener.com/ethereum/0x2c4ceb697f4d8385621438c0e785635942e8404f", newPage: "_blank" },
+              { name: "Uniswap", linkUrl: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x2c4ceb697f4d8385621438c0e785635942e8404f", newPage: "_blank" },
             ],
           },
           {

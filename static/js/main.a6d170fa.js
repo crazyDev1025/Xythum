@@ -12328,7 +12328,7 @@
       const l = (e) => {
         let { title: t } = e;
         return (0, o.jsxs)(r.N_, {
-          to: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0xcomingsoon",
+          to: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x2c4ceb697f4d8385621438c0e785635942e8404f",
           className: "button",
           children: [
             "BUY",

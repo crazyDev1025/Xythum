@@ -14,7 +14,7 @@ const JoinWaitList = ({ title = "Join Waitlist", marginTop = "0" }) => {
       }}
       className="joinWaitlist"
     >
-      <a href="https://www.dextools.io/app/en/ether/pair-explorer/0xcomingsoon" className="joinWaitlistButton">
+      <a href="https://www.dextools.io/app/en/ether/pair-explorer/0x2c4ceb697f4d8385621438c0e785635942e8404f" className="joinWaitlistButton">
         {title}
       </a>
 
