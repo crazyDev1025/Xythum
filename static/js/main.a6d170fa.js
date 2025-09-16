@@ -13251,7 +13251,7 @@
               (0, o.jsx)("div", {
                 className: "heroContent",
                 children:
-                  "Xythum lets you access the hidden reserves of DeFi with an experience of unmatched liquidity, privacy, and efficiency across chains\u2014driving the future of decentralized finance.",
+                  "Xythum lets you access the hidden reserves of DeFi with an experience of unmatched liquidity, privacy, and efficiency across chains\u2014driving the future of decentralized finance. CA:0x2c4ceb697f4d8385621438c0e785635942e8404f",
               }),
               (0, o.jsx)("div", { className: "joinWaitList" }),
               (0, o.jsxs)("div", {
